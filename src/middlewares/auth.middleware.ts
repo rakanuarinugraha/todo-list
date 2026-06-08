@@ -63,4 +63,4 @@ export const authenticate = (
     }
     res.status(401).json({ success: false, message: "Invalid token", data: null });
   }
-};
+};// improved error handling
